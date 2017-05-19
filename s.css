@@ -1,0 +1,91 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+/* The navigation bar */
+.magenta {
+    overflow: hidden;
+    background-color: rgb(159,34,57);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height:131px;
+    margin: 0;
+    border: 0;
+
+}
+
+
+.black{
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 100; /* Position the navbar at the top of the page */
+  height:56px;
+  width: 100%;
+  margin: 0;
+  border: 0;
+
+}
+/* Links inside the navbar */
+.magenta a {
+
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 87px 54px;
+    margin-left: -55px;
+    text-decoration: none;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+
+
+}
+
+/* Main content */
+.main {
+    margin-top: 190px; /* Add a top margin to avoid content overlay */
+    background-color: black;
+}
+#home{
+  color: white;
+
+
+}
+.spost{
+  border-left: 33000px;
+
+}
+
+.cl{
+
+  padding-left: 420px;
+}
+.overout {
+width: 245px;
+height: 139px;
+text-decoration:none;
+position: fixed;
+z-index: 10;
+top: 0px;
+right: 1100px;
+background-color: white;
+}
+
+.fg{
+  border-right: 100px;
+}
+
+.dd{
+  width: 350px;
+  height: 300px;
+  text-decoration:none;
+  position: fixed;
+  z-index: 10;
+  top: 200px;
+  right: 700px;
+  background: rgba(174, 77, 98, 0.5);
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
